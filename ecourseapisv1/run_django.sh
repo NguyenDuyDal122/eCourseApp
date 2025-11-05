@@ -6,8 +6,8 @@ python manage.py migrate
 
 echo "=== Tạo superuser ==="
 export DJANGO_SUPERUSER_USERNAME=admin
-export DJANGO_SUPERUSER_EMAIL=admin@example.com
-export DJANGO_SUPERUSER_PASSWORD=Admin@123
+export DJANGO_SUPERUSER_EMAIL=admin@gmail.com
+export DJANGO_SUPERUSER_PASSWORD=123456
 
 python manage.py createsuperuser --no-input || echo "SuperUser đã tồn tại!"
 
